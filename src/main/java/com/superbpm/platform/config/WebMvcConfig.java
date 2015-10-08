@@ -81,7 +81,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
   public MessageSource messageSource() {
     logger.info("MessageSource");
     ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-    messageSource.setBasename("locale.i18");
+    messageSource.setBasenames("locale.i18","messages","locale.i18-*");
+    messageSource.setDefaultEncoding("UTF-8");
 
     return messageSource;
   }

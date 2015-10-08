@@ -199,7 +199,7 @@
         <executions>
           <execution>
             <id>dist</id>
-            <phase>install</phase>
+            <phase>package</phase>
             <goals>
               <goal>single</goal>
             </goals>
