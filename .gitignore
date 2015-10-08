@@ -1,0 +1,12 @@
+target
+.classpath
+.project
+.settings
+.factorypath
+.*jsfdia
+*.externalToolBuilders
+Thumbs.db
+.idea/*
+*.iml
+*.lic
+login_hy.xhtml

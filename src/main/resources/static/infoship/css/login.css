@@ -1,0 +1,166 @@
+body{
+	background:#e8ebef;
+	position:relative;
+	height:600px;
+}
+#top{
+	height:60px;
+	padding:30px 0;
+}
+#content{
+	height:400px;
+	background:#229ddd;
+}
+.navLeft{
+	width:700px;
+	text-align:center;
+	height:400px;
+	float:left;
+}
+.loginInfo{
+	width:300px;
+	height:400px;
+	float:left;
+	position:relative;
+}
+.dList{
+	float:left;
+	width:260px;
+	padding:0 20px;
+	background:#f1f1f1;
+}
+.dList .p1{
+	float:left;
+	height:30px;
+	line-height:30px;
+	padding: 20px 0;
+	overflow:hidden;
+	width:100%;
+	margin-bottom:15px;
+}
+.dList .p1 h1{
+	float:left;
+	font-size:26px;
+	color:#333;
+	line-height:30px;
+}
+.dList .p1 strong{
+	float:left;
+	padding-left:10px;
+	font-size:14px;
+	color:#ccc;
+	line-height:40px;
+}
+.loginInfo > table{
+	float:left;
+}
+.loginInfo > table td{
+	
+}
+.dList .p1 span{
+	float:right;
+	color:#999;
+	line-height:40px;
+	padding-right:3px;
+}
+.dList .p1 span a{
+	color:#4ab71f;
+}
+.dList dl{
+	float:left;
+	width:100%;
+}
+.dList dl dt{
+	color:#666666;
+	float:left;
+	width:50px;
+	text-align:right;
+	height:32px;
+	line-height:32px;
+	overflow: hidden;
+}
+.dList dl dd{
+	float:left;
+	width:209px;
+}
+.dList p.errMessage{
+	float:left;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-indent:50px;
+	color:red;
+}
+.dList .cBorder{
+	border:1px #dedede solid;
+	padding:5px;
+	background:#fff;
+	float:left;
+}
+.dList .cBorder input{
+	border:none;
+	height:20px;
+	line-height:20px;
+	width:197px;
+}
+#t_imgCode{
+	float:left;
+	margin-left:10px;
+	height:30px;
+	background:#fff;
+	border:1px #ddd solid;
+	width:78px;
+	cursor:pointer;
+}
+#t_imgCode img{
+	width:78px;
+	height:30px;
+}
+.dList button{
+	float:left;
+	width:207px;
+	height:33px;
+	background:#4ab71f;
+	border:1px #3fa018 solid;
+	cursor:pointer;
+	color:#fff;
+	font-size:14px;
+}
+.dList button:hover{
+	background:#3fa018;
+	border:1px #4ab71f solid;
+}
+.links{
+	height:50px;
+	line-height:50px;
+	text-align:right;
+	float:left;
+	width:100%;
+}
+.links a{
+	color:#999;
+}
+#bottom {
+	width:100%;
+	margin-top:60px;
+}
+#bottom .cLeft{
+	float:left;
+	width:700px;
+	line-height:30px;
+	color:#2e3e4e;
+	text-align:right;
+	padding:10px 0;
+	border-right:1px #ddd solid;
+}
+#bottom .cLeft label{
+	display:inline-block;
+	margin-right:50px;
+}
+#bottom .cRight{
+	float:left;
+	width:250px;
+	color:#2e3e4e;
+	text-align:center;
+	margin-top:10px;
+}

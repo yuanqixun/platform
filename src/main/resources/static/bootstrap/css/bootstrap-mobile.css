@@ -1,0 +1,11 @@
+.dropdown-menu {
+    min-width: 0 !important;
+}
+
+.nav > li > a {
+    padding: 10px 10px !important;
+}
+
+.nav-pills > li + li {
+     margin-left: 0px !important;
+}

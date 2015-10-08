@@ -1,0 +1,18 @@
+﻿html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,form,fieldset,legend,input,select,textarea,button,caption,th,td,blockquote,pre{margin:0;padding:0}
+body{outline:0;font:12px /1.5 "Microsoft YaHei",Tahoma,Arial,"Hiragiono Sans GB",simsun;}
+input,textarea,button{outline:medium none;vertical-align:middle;font-size:100%;font-family:Arial}
+input::-ms-clear{display:none;}
+li{list-style:none outside none}
+table{border-collapse:collapse;font-size:12px;border-spacing:0}
+caption,th{text-align:left}
+fieldset,img{border:0 none}
+address,cite,dfn,em,var,i{font-style:normal}
+code,dfn,kbd,samp,tt,var,pre{font-family:monospace}
+del,ins,s{text-decoration:none}
+body a{outline:none;}
+input,textarea,button{outline:medium none;vertical-align:middle;font-size:100%;font-family:Arial}
+h1,h2,h3,h4,h5,h6,strong,th,b{font-weight:normal}
+a{text-decoration:none;color:#0081cc;}
+a:hover{text-decoration:underline;}
+.main{width:1000px;margin:0 auto;}
+.none{display:none;}

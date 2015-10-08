@@ -1,0 +1,207 @@
+#hader{
+	background:#229ddd;
+}
+#hader .top .logo_x{
+	background:#1f8dc7;
+}
+#hader .top .menu li.br{
+	background:url(images/top-border.png) right center no-repeat;
+}
+#hader .top .menu li s i{
+	color:#fff;
+	background:url(images/infoship.png) -252px -54px no-repeat;
+}
+#hader .top .menu li s.maxPage{
+	background:url(images/infoship.png) -45px -5px no-repeat;
+}
+#hader .top .menu li s.maxPage_at{
+	background:url(images/infoship.png) -165px -285px no-repeat;
+}
+#hader .top .menu li s.maxPage:hover{
+	background:url(images/infoship.png) -45px -46px no-repeat;
+}
+#hader .top .menu li s.maxPage_at:hover{
+	background:url(images/infoship.png) -165px -245px no-repeat;
+}
+#hader .top .menu li s.messageCenter{
+	background:url(images/infoship.png) -125px -4px no-repeat;
+}
+#hader .top .menu li s.messageCenter:hover{
+	background:url(images/infoship.png) -125px -45px no-repeat;
+}
+#hader .top .menu li s.email{
+	background:url(images/infoship.png) -165px -3px no-repeat;
+}
+#hader .top .menu li s.email:hover{
+	background:url(images/infoship.png) -165px -45px no-repeat;
+}
+#hader .top .menu li s.transaction{
+	background:url(images/infoship.png) -85px -4px no-repeat;
+}
+#hader .top .menu li s.transaction:hover{
+	background:url(images/infoship.png) -85px -46px no-repeat;
+}
+#hader .top .menu li s.skin{
+	background:url(images/infoship.png) -206px -4px no-repeat;
+}
+#hader .top .menu li s.skin:hover{
+	background:url(images/infoship.png) -206px -45px no-repeat;
+}
+#hader .top .menu li s.exit{
+	background:url(images/infoship.png) -5px -45px no-repeat;
+}
+#hader .top .menu li s.settings{
+	background:url(images/infoship.png) -5px -83px no-repeat;
+}
+#hader .top .menu li label{
+	color:#57e1ff;
+}
+#hader .top .menu li i em {
+    border-top-color: #57e1ff;
+}
+#hader .top .menu li i span {
+    border-top-color: #f5f5f5;
+}
+#hader .top .postionItems strong{
+	background:url(images/infoship.png) -45px -84px no-repeat;
+}
+#hader .top .publicSearch .cBorder{
+	border:1px #2091cc solid;
+	background:#2aaff4;
+}
+#hader .top .publicSearch .cBorder i{
+	background:url(images/infoship.png) -5px -3px no-repeat;
+}
+#hader .top .publicSearch .cBorder input{
+	background:#2aaff4;
+	color:#fff;
+}
+#pageLeft .oneMenu{
+	background:#2081b3;
+}
+#pageLeft .oneMenu span.bar1{
+	background:url(images/bar1.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar1{
+	background:url(images/bar1.png) -41px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar2{
+	background:url(images/bar2.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar2{
+	background:url(images/bar2.png) -40px 1px no-repeat;
+}
+#pageLeft .oneMenu span.bar3{
+	background:url(images/bar3.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar3{
+	background:url(images/bar3.png) -40px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar4{
+	background:url(images/bar4.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar4{
+	background:url(images/bar4.png) -40px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar5{
+	background:url(images/bar5.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar5{
+	background:url(images/bar5.png) -40px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar6{
+	background:url(images/bar6.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar6{
+	background:url(images/bar6.png) -41px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar7{
+	background:url(images/bar7.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar7{
+	background:url(images/bar7.png) -39px 0 no-repeat;
+}
+#pageLeft .oneMenu span.bar8{
+	background:url(images/bar8.png) 0 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at span.bar8{
+	background:url(images/bar8.png) -40px 0 no-repeat;
+}
+#pageLeft .oneMenu dl.at{
+	background:#1b6e98;
+	border-color:#229ddd;
+	color:#fff;
+}
+#pageLeft .oneMenu dl{
+	border-left:2px #2081b3 solid;
+	color:#57e1ff;
+}
+#pageLeft .twoMenu{
+	border-top:1px solid #186e9b;
+}
+/*one ico*/
+#pageCenter .pageTabs{
+	border-top:1px solid #186e9b;
+}
+#pageLeft .oneMenu span.a-icon-cash{
+	background:url(images/one.png) center center no-repeat;
+}
+#pageLeft .oneMenu span.a-icon-cash_hover{
+	background:url(images/one_hover.png) center center no-repeat;
+}
+#pageCenter .pageTabs ul li i{
+	background:url(images/infoship.png) -10px -130px no-repeat;
+}
+#pageCenter .pageTabs ul li i:hover{
+	background:url(images/infoship.png) -52px -130px no-repeat;
+}
+#pageCenter .pageTabs ul li.at{
+	background:#fff;
+	color:#000;
+	border-bottom:2px #229ddd solid;
+}
+#pageCenter .pageTabs .tblMorePlan .tblMoreIco{
+	background:url(images/infoship.png) -200px -320px no-repeat;
+}
+.titleContent{
+	background:#229ddd;
+	color:#fff;
+}
+#iframeContent{
+	background:#e8ebef;
+	border-top:1px solid #186e9b;
+}
+#iframeContent iframe{
+	background:#fff;
+}
+#maxPage{
+	background:#efefef;
+}
+#user_skin .postionItems li.at{
+	background:url(images/a-selected-bs.png) 120px center no-repeat;
+}
+#user_skin .postionItems li.at:hover{
+	background:url(images/a-selected-bs.png) 120px center no-repeat #efefef;
+}
+#pageLeft .twoMenu .menu1 h2 i {
+	background:url(images/menu_down.png) center center no-repeat;
+}
+#pageLeft .twoMenu .menu1 li.at h2 i {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	background:url(images/menu_up.png) center center no-repeat\9;
+}
+#pageLeft .twoMenu .menu1 h3 i{
+	background:url(images/menu_down.png) center center no-repeat;
+}
+#pageLeft .twoMenu .menu1 dt.at > h3 i {
+    transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	background:url(images/menu_up.png) center center no-repeat\9;
+}
