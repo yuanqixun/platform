@@ -33,7 +33,7 @@
                                 </#if>
                                 </dl>
                                 <dl>
-                                    <dt><@spring.message "sbp.login.username"/>：</dt>
+                                    <dt><@spring.message "pl.login.username"/>：</dt>
                                     <dd>
                                         <div class="cBorder"><input type="text" name="loginName" value="${username}"
                                                                     placeholder="用户名"/></div>
@@ -41,7 +41,7 @@
                                 </dl>
                                 <p class="errMessage" id="loginName_ms"></p>
                                 <dl>
-                                    <dt><@spring.message "sbp.login.password"/>：</dt>
+                                    <dt><@spring.message "pl.login.password"/>：</dt>
                                     <dd>
                                         <div class="cBorder"><input type="password" name="loginPass" placeholder="密码"/>
                                         </div>
@@ -65,7 +65,7 @@
                                 <dl>
                                     <dt>&nbsp;</dt>
                                     <dd>
-                                        <button id="submit"><@spring.message "sbp.login.dologin"/></button>
+                                        <button id="submit"><@spring.message "pl.login.dologin"/></button>
                                     </dd>
                                 </dl>
                                 <div class="links"><a href="">忘记密码？</a></div>

@@ -1,5 +1,6 @@
 package com.superbpm.platform.config;
 
+import com.superbpm.platform.utils.PathMatchingResourceBundleMessageSource;
 import org.apache.log4j.Logger;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.MessageSource;
@@ -7,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
-import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
@@ -79,23 +79,19 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
   @Bean
   public MessageSource messageSource() {
-    logger.info("MessageSource");
-    ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-    messageSource.setBasenames("locale.i18","messages","locale.i18-*");
+    PathMatchingResourceBundleMessageSource messageSource = new PathMatchingResourceBundleMessageSource();
+    messageSource.setBasenames("classpath*:/i18n/messages*","classpath*:/META-INF/message*");
     messageSource.setDefaultEncoding("UTF-8");
-
     return messageSource;
   }
 
   @Override
   public void addResourceHandlers(ResourceHandlerRegistry registry) {
-    logger.info("addResourceHandlers");
     registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
   }
 
   @Bean(name = "multipartResolver")
   public CommonsMultipartResolver commonsMultipartResolver() {
-    logger.info("CommonsMultipartResolver");
     return new CommonsMultipartResolver();
   }
 
