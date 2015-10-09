@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.superbpm.platform.dao.oauth2.ClientDao">
+  <resultMap id="Client" type="com.superbpm.platform.entity.oauth2.Client">
+    <result column="D_UUID" property="uuid" jdbcType="VARCHAR"/>
+    <result column="D_CLIENTID" property="clientName" jdbcType="VARCHAR"/>
+    <result column="D_CLIENTNAME" property="clientId" jdbcType="VARCHAR"/>
+    <result column="D_CLIENTSECRET" property="clientSecret" jdbcType="VARCHAR"/>
+  </resultMap>
+</mapper>
